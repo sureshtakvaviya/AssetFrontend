@@ -1,0 +1,22 @@
+:root {
+    --primaryBg: #34B7F1;
+    --primaryHover:#84c6e2;
+    /* --secondary: use here*/
+    --dark: #1b1b1b;
+    --shadow: #00000033;
+    --light: #f0f0f0;
+    --transparent-white: #f0f0f0;
+    --transparent-dark: #040F1B;
+    --grey: #888;
+    --dark-grey: #666;
+    --online: limegreen;
+    /* --primary: #1b1b1b;
+    --dark: #1b1b1b;
+    --shadow: #00000033;
+    --light: #f0f0f0;
+    --transparent-white: #f0f0f0;
+    --transparent-dark: #2b2b2bd3;
+    --grey: #888;
+    --dark-grey: #666;
+    --online: limegreen; */
+}

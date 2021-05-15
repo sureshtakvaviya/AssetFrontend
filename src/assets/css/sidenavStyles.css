@@ -1,0 +1,120 @@
+.sidenavListContainer {
+  max-height: 75vh;
+  overflow: auto;
+}
+.sidenavListContainer {
+  min-height: 100px;
+}
+.sidenavListItem {
+  padding: 15px 10px;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+  border-left: 5px solid #fff;
+}
+.sidenavListItem:hover {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  border-left: 5px solid var(--primaryBg);
+}
+.sidenavLinks ul[role="menu"].dropdown-menu.show {
+  z-index: 1000000 !important;
+}
+.createButton {
+  border-radius: 50%;
+}
+.clickedHighlighter {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  border-left: 5px solid var(--primaryBg);
+}
+.sideBarDetailsContainer {
+  position: absolute;
+  left: 20rem;
+  bottom: 6rem;
+  min-width: 25rem;
+  min-height: 6rem;
+  color: var(--light);
+  
+  transition: all 1s ease-in;
+}
+.sideBarDetails {
+  background-color: var(--transparent-dark);
+  opacity: 0.6;
+  box-shadow: 1px 1px var(--shadow);
+}
+.clickedHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primaryBg);
+  color: var(--light);
+  border-radius: 10px 10px 0 0;
+}
+.clickedTitle {
+  font-size: 1.1em;
+  padding: 10px;
+}
+.closeIcon {
+  padding: 0.5rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.closeIcon:hover {
+  transform: scale(1.2);
+  color: var(--danger) !important;
+}
+.clickedItemHeader {
+  font-weight: bold;
+  padding: 15px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.125);
+}
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active for <2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.page-link {
+  color: var(--primaryBg) !important;
+}
+.page-item.active .page-link {
+  background-color: var(--primaryBg) !important;
+  color: var(--light) !important;
+}
+.timelinePaginator .page-link {
+  background-color: #ffffffb3 !important;
+  color: var(--dark) !important;
+  min-width: 3rem;
+}
+.timelinePaginator .page-item.active .page-link {
+  background-color: var(--light) !important;
+  color: var(--dark) !important;
+}
+.timelinePaginator li.page-item {
+  height: 4rem !important;
+}
+.timelinePaginator button.page-link,
+.timelinePaginator span.page-link {
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timelinePaginator ul li:nth-last-child(2) .diamondContainer:after {
+  content: none;
+}
+.b-sidebar:not(.b-sidebar-right) {
+  left: 60px !important;
+  top: 70px;
+  right: auto;
+  background: white !important;
+  min-width: 220px;
+  border-radius: 10px;
+  max-width: 325px !important;
+}
